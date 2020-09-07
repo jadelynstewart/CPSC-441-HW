@@ -1,0 +1,18 @@
+---
+title: "Hw 2"
+author: "Jadelyn Stewart"
+date: "9/7/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Solve:
+2x + 5y = 33
+x + 3y = 19
+
+```{r}
+a <- matrix(c(2,1,5,3), ncol=2, nrow=2)
+b <- c(33,19)
+solve(a,b)```
